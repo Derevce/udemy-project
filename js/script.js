@@ -35,19 +35,16 @@ if (personalMovieDB.count < 10) {
 }
 
 
-//let i = 0;
-// do { 
-//     i++;
-//     let a = prompt("Один из последних просмотренных фильмов?");
-//     let b = prompt("На сколько оцените его?");
-//     personalMovieDB.movies[a] = b;
-//} while (i < 2);
+let i = 0;
+ do { 
+    i++;
+    console.log(i);
+} while (i < 2);
 
-// let i = 0;
-// while (i < 2) { // выводит 0, затем 1, затем 2
-//   let a = prompt("Один из последних просмотренных фильмов?");
-//   let b = prompt("На сколько оцените его?");
-//   i++;
-// }
+let di = 10;
+while (di < 12) { 
+  console.log(di);
+  di++;
+}
 
 console.log(personalMovieDB);
